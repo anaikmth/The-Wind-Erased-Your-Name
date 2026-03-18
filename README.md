@@ -17,18 +17,15 @@ This game is being developed as a **NSI project** (FR: Numérique et Sciences In
 
 ## Concept
 
+**[FR]** Une société autrefois florissante s'est effondrée, corrompue par une substance agricole détournée dans les canalisations. Aujourd'hui, une tempête de sable maudite recouvre les ruines d'une prophétie oubliée. Vous êtes **Le Messager** (noir, 1m82, athlétique). Guidé par vos propres consciences intérieures (mémoire musculaire, organes, cerveau), vous devez récolter les fragments de papier éparpillés pour reconstituer la prophétie sur une tablette de pierre et affronter le dieu du chaos, **Slaanesh**.
+
+**[EN]** A once-flourishing society has collapsed, corrupted by an agricultural substance diverted into the city's pipes. Today, a cursed sandstorm covers the ruins of a forgotten prophecy. You are **The Messenger** (black, 1m82, athletic). Guided by your own internal consciences (muscle memory, organs, brain), you must gather scattered paper fragments to reconstruct the prophecy on a stone tablet and face the god of chaos, **Slaanesh**.
+
 ## 🛠 Installation & Setup
 
 ## License
 
 ⚖ Released under the [MIT license](/LICENSE.Md).
-
-
-
-
-**[FR]** Une société autrefois florissante s'est effondrée, corrompue par une substance agricole détournée dans les canalisations. Aujourd'hui, une tempête de sable maudite recouvre les ruines d'une prophétie oubliée. Vous êtes **Le Messager** (noir, 1m82, athlétique). Guidé par vos propres consciences intérieures (mémoire musculaire, organes, cerveau), vous devez récolter les fragments de papier éparpillés pour reconstituer la prophétie sur une tablette de pierre et affronter le dieu du chaos, **Slaanesh**.
-
-**[EN]** A once-flourishing society has collapsed, corrupted by an agricultural substance diverted into the city's pipes. Today, a cursed sandstorm covers the ruins of a forgotten prophecy. You are **The Messenger** (black, 1m82, athletic). Guided by your own internal consciences (muscle memory, organs, brain), you must gather scattered paper fragments to reconstruct the prophecy on a stone tablet and face the god of chaos, **Slaanesh**.
 
 ---
 
