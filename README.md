@@ -25,7 +25,7 @@ This game is being developed as a **NSI project** (FR: Numérique et Sciences In
 
 ## 🛠 Installation & Setup
 
-## License
+## ⚖ License
 
 ⚖ Released under the [MIT license](/LICENSE.Md).
 
