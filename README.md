@@ -8,7 +8,8 @@
 
 > A simple open source isometric RPG, built with Godot.
 
-If you want to track the latest news of the game, welcome to our [**discord server!**](https://discord.gg/zx2rmnZW2k).(BTW you can send us requests or report bugs)
+If you want to track the latest news of the game, welcome to our [**discord server!**](https://discord.gg/zx2rmnZW2k). 
+(BTW you can send us requests or report bugs)
 
 ### 📖 Synopsis
 
