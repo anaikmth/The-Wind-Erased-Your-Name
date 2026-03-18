@@ -15,15 +15,44 @@ If you want to track the latest news of the game, welcome to our [**discord serv
 
 This game is being developed as a **NSI project** (FR: Numérique et Sciences Informatiques). Our goal is to create a fully functional open source RPG while applying various course notions.
 
+## Concept
+
+## 🛠 Installation & Setup
+
+## License
+
+⚖ Released under the [MIT license](/LICENSE.Md).
+
+
+
+
 **[FR]** Une société autrefois florissante s'est effondrée, corrompue par une substance agricole détournée dans les canalisations. Aujourd'hui, une tempête de sable maudite recouvre les ruines d'une prophétie oubliée. Vous êtes **Le Messager** (noir, 1m82, athlétique). Guidé par vos propres consciences intérieures (mémoire musculaire, organes, cerveau), vous devez récolter les fragments de papier éparpillés pour reconstituer la prophétie sur une tablette de pierre et affronter le dieu du chaos, **Slaanesh**.
 
 **[EN]** A once-flourishing society has collapsed, corrupted by an agricultural substance diverted into the city's pipes. Today, a cursed sandstorm covers the ruins of a forgotten prophecy. You are **The Messenger** (black, 1m82, athletic). Guided by your own internal consciences (muscle memory, organs, brain), you must gather scattered paper fragments to reconstruct the prophecy on a stone tablet and face the god of chaos, **Slaanesh**.
 
 ---
 
-### 🛠 Installation & Setup
+## 👥 The Team
 
-1. **Download** [Godot Engine 4.x](https://godotengine.org).
-2. **Clone** this repository to your local machine:
-   ```bash
-   git clone [https://github.com/ton-pseudo/The-Wind-Erased-Your-Name.git](https://github.com/ton-pseudo/The-Wind-Erased-Your-Name.git)
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/mathieukgndt">
+        <img src="https://github.com/mathieukgndt.png?size=100" width="70" style="border-radius:50%" alt="mathieukgndt"/><br />
+        <sub><b>mathieukgndt</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/nagipi">
+        <img src="https://github.com/nagipi.png?size=100" width="70" style="border-radius:50%" alt="nagipi"/><br />
+        <sub><b>nagipi</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/anaikmth">
+        <img src="https://github.com/anaikmth.png?size=100" width="70" style="border-radius:50%" alt="anaikmth"/><br />
+        <sub><b>anaikmth</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
