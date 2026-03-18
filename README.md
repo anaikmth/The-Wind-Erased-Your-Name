@@ -11,7 +11,9 @@
 If you want to track the latest news of the game, welcome to our [**discord server!**](https://discord.gg/zx2rmnZW2k). 
 (BTW you can send us requests or report bugs)
 
-### 📖 Synopsis
+## Why we're doing this game?
+
+This game is being developed as a **NSI project** (FR: Numérique et Sciences Informatiques). Our goal is to create a fully functional open source RPG while applying various course notions.
 
 **[FR]** Une société autrefois florissante s'est effondrée, corrompue par une substance agricole détournée dans les canalisations. Aujourd'hui, une tempête de sable maudite recouvre les ruines d'une prophétie oubliée. Vous êtes **Le Messager** (noir, 1m82, athlétique). Guidé par vos propres consciences intérieures (mémoire musculaire, organes, cerveau), vous devez récolter les fragments de papier éparpillés pour reconstituer la prophétie sur une tablette de pierre et affronter le dieu du chaos, **Slaanesh**.
 
