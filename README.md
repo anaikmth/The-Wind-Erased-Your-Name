@@ -17,9 +17,11 @@ This game is being developed as a **NSI project** (FR: Numérique et Sciences In
 
 ## Concept
 
-**[FR]** Une société autrefois florissante s'est effondrée, corrompue par une substance agricole détournée dans les canalisations. Aujourd'hui, une tempête de sable maudite recouvre les ruines d'une prophétie oubliée. Vous êtes **Le Messager** (noir, 1m82, athlétique). Guidé par vos propres consciences intérieures (mémoire musculaire, organes, cerveau), vous devez récolter les fragments de papier éparpillés pour reconstituer la prophétie sur une tablette de pierre et affronter le dieu du chaos, **Slaanesh**.
+**[EN]** Once, this city thrived… until a creeping corruption devoured it. Now, a cursed sandstorm blankets the ruins, hiding a forgotten prophecy. You are The Messenger, the last hope in a shattered world… but your memory fails you. Every memory slips away, and every fragment you find holds a key to the truth. In this desert of chaos, every step draws you closer to the mystery… and peril.
 
-**[EN]** A once-flourishing society has collapsed, corrupted by an agricultural substance diverted into the city's pipes. Today, a cursed sandstorm covers the ruins of a forgotten prophecy. You are **The Messenger** (black, 1m82, athletic). Guided by your own internal consciences (muscle memory, organs, brain), you must gather scattered paper fragments to reconstruct the prophecy on a stone tablet and face the god of chaos, **Slaanesh**.
+**[FR]** Autrefois, cette cité prospérait… jusqu’à ce qu’une corruption insidieuse la consume. Aujourd’hui, une tempête de sable maudite recouvre ses ruines, dissimulant une prophétie oubliée. Vous êtes Le Messager, dernier espoir d’un monde en ruines… mais votre mémoire vous trahit. Chaque souvenir s’échappe, chaque fragment que vous trouvez est une clé pour reconstruire la vérité. Dans ce désert de chaos, chaque pas vous rapproche du mystère… et du danger.
+
+
 
 ## 🛠 Installation & Setup
 
