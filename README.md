@@ -6,9 +6,9 @@
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20Web-lightgrey)](#)
 [![Made with love](https://img.shields.io/badge/Made%20with-love-red)](https://github.com/ton-pseudo)
 
-*An open source atmospheric RPG engine and narrative experience built with Godot.*
+> A simple open source isometric RPG, built with Godot.
 
----
+If you want to track the latest news of the game, welcome to our [**discord server!**](https://discord.gg/zx2rmnZW2k).
 
 ### 📖 Synopsis
 
