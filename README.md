@@ -15,7 +15,7 @@ If you want to track the latest news of the game, welcome to our [**discord serv
 
 This game is being developed as a **NSI project** (FR: Numérique et Sciences Informatiques). Our goal is to create a fully functional open source RPG while applying various course notions.
 
-## Concept
+## About the Game
 
 **[EN]** Once, this city thrived… until a creeping corruption devoured it. Now, a cursed sandstorm blankets the ruins, hiding a forgotten prophecy. You are The Messenger, the last hope in a shattered world… but your memory fails you. Every memory slips away, and every fragment you find holds a key to the truth. In this desert of chaos, every step draws you closer to the mystery… and peril.
 
