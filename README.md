@@ -6,10 +6,15 @@
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20Web-lightgrey)](#)
 [![Made with love](https://img.shields.io/badge/Made%20with-love-red)](https://github.com/ton-pseudo)
 
+
+
 > A simple open source isometric RPG, built with Godot.
 
 If you want to track the latest news of the game, welcome to our [**discord server!**](https://discord.gg/zx2rmnZW2k). 
 (BTW you can send us requests or report bugs)
+
+> [!NOTE]
+> This project is currently in **Alpha**. Bugs may occur, and save files are not guaranteed to be compatible with future versions.
 
 ## Why we're doing this game?
 
