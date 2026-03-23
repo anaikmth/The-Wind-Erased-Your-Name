@@ -30,6 +30,18 @@ This game is being developed as a **NSI project** (FR: Numérique et Sciences In
 
 ## 🛠 Installation & Setup
 
+
+## 🌐 Resources & Tools 
+
+Here are some resources and websites that helped in the development of this project:
+
+- [Godot Engine](https://godotengine.org) - Open-source game engine used to build the RPG.  
+- [Itch.io Free Game Assets](https://itch.io/game-assets/free) - Free assets and inspiration for games.  
+- [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/) - Free images and textures for backgrounds or inspiration.  
+- [GitHub](https://github.com/) – Version control and source code hosting.
+
+> ⚠️ Make sure to respect the licenses and give credit to the original asset creators where required.
+
 ## ⚖ License
 
 ⚖ Released under the [MIT license](/LICENSE.Md).
