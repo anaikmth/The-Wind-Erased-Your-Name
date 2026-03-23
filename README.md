@@ -1,4 +1,4 @@
-![logo](https://media.discordapp.net/attachments/1470798907524120731/1483887412055904326/image.png?ex=69bc3958&is=69bae7d8&hm=cc15e647442e4c0551fe9c665fc9be1a162bf8bf009191b791358b0ba2f29f63&=&format=webp&quality=lossless)
+![logo](https://media.discordapp.net/attachments/1470798907524120731/1483887412055904326/image.png?ex=69c22818&is=69c0d698&hm=f4b7cd0cf75a4b8a202d0ab69750d5a57b5c0da01b38cb691353ccf43a13a73b&=&format=webp&quality=lossless&width=1240&height=818)
 
 [![Godot Engine](https://img.shields.io/badge/Godot-4.x-blue?logo=godot-engine&logoColor=white)](https://godotengine.org)
 [![Version](https://img.shields.io/badge/version-v0.1.0--alpha-orange)](https://github.com/ton-pseudo/nom-du-repo/releases)
