@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Speaker" load_steps=2 format=3 uid="uid://xjlgvad0lul5"]
+
+[ext_resource type="Script" uid="uid://booxiry4lf2es" path="res://dialogue_system/speaker.gd" id="1_qfhsn"]
+
+[resource]
+script = ExtResource("1_qfhsn")
+speaker_name = "Encyclopedia"
+speaker_color = Color(0.47451, 0.756863, 0.847059, 1)
+portrait_path = "uid://ccc3np1qytaja"
+metadata/_custom_type_script = "uid://booxiry4lf2es"

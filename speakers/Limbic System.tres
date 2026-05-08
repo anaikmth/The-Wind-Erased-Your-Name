@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Speaker" load_steps=2 format=3 uid="uid://m7bw0hibmw1i"]
+
+[ext_resource type="Script" uid="uid://booxiry4lf2es" path="res://dialogue_system/speaker.gd" id="1_u2wx1"]
+
+[resource]
+script = ExtResource("1_u2wx1")
+speaker_name = "Limbic System"
+speaker_color = Color(0.788235, 0.65098, 0.27451, 1)
+metadata/_custom_type_script = "uid://booxiry4lf2es"

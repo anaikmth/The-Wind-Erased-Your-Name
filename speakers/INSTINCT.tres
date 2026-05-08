@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Speaker" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://dialogue_system/speaker.gd" id="1_s4im0"]
+
+[resource]
+script = ExtResource("1_s4im0")
+speaker_name = "INSTINCT"
+speaker_color = Color(1.0, 0.50, 0.20, 1)
