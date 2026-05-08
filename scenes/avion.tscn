@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://cs2uhs24w5qnr"]
+
+[ext_resource type="Texture2D" uid="uid://bm0kyevcupexq" path="res://PostApocalypse_AssetPack_v1.1.2/Objects/Vehicles/crash-avion-de-con-removebg-preview.png" id="1_a6shm"]
+[ext_resource type="Script" uid="uid://dp67ccs52eobx" path="res://scripts/avion_interaction.gd" id="2_lxool"]
+[ext_resource type="PackedScene" uid="uid://ltwhxc6oap2c" path="res://dialogue_system/dialogue_drawer.tscn" id="3_xqm7i"]
+[ext_resource type="Script" uid="uid://be8kvecmvoyoo" path="res://scripts/interaction_marker.gd" id="4_xqm7i"]
+[ext_resource type="Texture2D" uid="uid://j5c8mi2rr6e8" path="res://desert tileset/sandstone_3x3.png" id="5_gke8m"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7aytd"]
+radius = 90.0
+
+[sub_resource type="Theme" id="Theme_drawer"]
+default_font_size = 24
+
+[node name="Avion" type="Sprite2D" unique_id=1648950498]
+scale = Vector2(0.5809773, 0.5623448)
+texture = ExtResource("1_a6shm")
+script = ExtResource("2_lxool")
+
+[node name="ZoneInteraction" type="Area2D" parent="." unique_id=1240017933]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ZoneInteraction" unique_id=1964497144]
+position = Vector2(-82.61932, -24.895758)
+shape = SubResource("CircleShape2D_7aytd")
+
+[node name="DialogueLayer" type="CanvasLayer" parent="." unique_id=1716343309]
+layer = 10
+
+[node name="DialogueDrawer" parent="DialogueLayer" unique_id=1649761229 instance=ExtResource("3_xqm7i")]
+visible = false
+mouse_filter = 1
+theme = SubResource("Theme_drawer")
+
+[node name="InteractionMarker" type="Node2D" parent="." unique_id=137495294]
+script = ExtResource("4_xqm7i")
+
+[node name="Polygon2D" type="Polygon2D" parent="InteractionMarker" unique_id=1665141690]
+color = Color(1, 0, 1, 1)
+texture = ExtResource("5_gke8m")
+texture_offset = Vector2(-0.23, 0)
+texture_rotation = -0.65449846
+polygon = PackedVector2Array(3.442475, 21.339222, 46.5, 40, 63.5, 21, 46.5, 6)
+uv = PackedVector2Array(33.5, 21, 46.5, 40, 63.5, 21, 46.5, 6)

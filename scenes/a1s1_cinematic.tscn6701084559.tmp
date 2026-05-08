@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://ceu4b8dl7ssas"]
+
+[ext_resource type="Script" uid="uid://6s2f1ihvlteo" path="res://scripts/a1s1_cinematic.gd" id="1_a1s1"]
+[ext_resource type="PackedScene" uid="uid://ltwhxc6oap2c" path="res://dialogue_system/dialogue_drawer.tscn" id="2_drawer"]
+[ext_resource type="Shader" uid="uid://cva3s7784cvmg" path="res://scenes/a1s1_cinematic.gdshader" id="3_331a1"]
+[ext_resource type="Texture2D" uid="uid://c3i6irhupy37w" path="res://assets (photos, musiques...)/wp6660705.png" id="4_8fwvg"]
+
+[sub_resource type="Theme" id="Theme_main"]
+default_font_size = 24
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0xvbn"]
+shader = ExtResource("3_331a1")
+
+[node name="A1S1_Cinematique" type="Node2D" unique_id=1927216331]
+script = ExtResource("1_a1s1")
+
+[node name="BlackScreen" type="ColorRect" parent="." unique_id=1792368173]
+z_index = 50
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="DialogueLayer" type="CanvasLayer" parent="." unique_id=1222252113]
+layer = 10
+
+[node name="DialogueDrawer" parent="DialogueLayer" unique_id=936491783 instance=ExtResource("2_drawer")]
+mouse_filter = 1
+theme = SubResource("Theme_main")
+
+[node name="SandLayer" type="Node2D" parent="." unique_id=1241802272]
+position = Vector2(-196, -124)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1404608256]
+position = Vector2(201, 179)
+zoom = Vector2(0.595, 0.595)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=167267433]
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer" unique_id=25856248]
+material = SubResource("ShaderMaterial_0xvbn")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_8fwvg")
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=1573637878]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.5176471)
+
+[connection signal="dialogue_ended" from="DialogueLayer/DialogueDrawer" to="." method="_on_dialogue_drawer_dialogue_ended"]

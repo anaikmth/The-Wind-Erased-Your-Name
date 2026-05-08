@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://byl0ysue6h81l"]
+
+[ext_resource type="Script" uid="uid://eqd7h0c78h5g" path="res://scripts/wake_up_transition.gd" id="1_wakeup"]
+
+[node name="WakeUpTransition" type="CanvasLayer" unique_id=1179442848]
+layer = 100
+script = ExtResource("1_wakeup")
+
+[node name="EyelidTop" type="ColorRect" parent="." unique_id=665871090]
+color = Color(0, 0, 0, 1)
+
+[node name="EyelidBottom" type="ColorRect" parent="." unique_id=1488159571]
+color = Color(0, 0, 0, 1)
+
+[node name="Vignette" type="ColorRect" parent="." unique_id=687533527]
+color = Color(0, 0, 0, 0.55)

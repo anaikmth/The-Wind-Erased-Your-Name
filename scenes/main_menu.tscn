@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://3nxr4khxkcmc"]
+
+[ext_resource type="Script" uid="uid://cp14jksp11jbf" path="res://scripts/main_menu.gd" id="1_ekxnf"]
+[ext_resource type="Texture2D" uid="uid://bjsreaiusdxb8" path="res://assets (photos, musiques...)/2iz2txerde261.png" id="2_bqqt6"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_wu84c"]
+particle_flag_disable_z = true
+emission_shape_scale = Vector3(1920, 1080, 1)
+emission_shape = 3
+emission_box_extents = Vector3(960, 540, 1)
+initial_velocity_min = -60.0
+initial_velocity_max = -30.0
+gravity = Vector3(0, 98, 0)
+
+[node name="MainMenu" type="Node2D" unique_id=777753565]
+script = ExtResource("1_ekxnf")
+metadata/_edit_vertical_guides_ = [-935.0]
+
+[node name="Background" type="TextureRect" parent="." unique_id=1501941713]
+custom_minimum_size = Vector2(1920, 1080)
+offset_right = 1921.0
+offset_bottom = 1080.0
+texture = ExtResource("2_bqqt6")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="SandParticles" type="GPUParticles2D" parent="." unique_id=638716243]
+amount = 800
+process_material = SubResource("ParticleProcessMaterial_wu84c")
+
+[node name="Title" type="Label" parent="." unique_id=1449501860]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="MenuButtons" type="VBoxContainer" parent="." unique_id=1288485782]
+offset_right = 40.0
+offset_bottom = 40.0

@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://cq558sc26inok"]
+
+[ext_resource type="Script" uid="uid://u2nbbvnme3id" path="res://scripts/porte_scene.gd" id="1_oepkw"]
+[ext_resource type="Texture2D" uid="uid://o57p16ai5lyx" path="res://assets (photos, musiques...)/porte.png" id="2_eqddr"]
+
+[sub_resource type="Gradient" id="Gradient_eqddr"]
+offsets = PackedFloat32Array(0, 0.5163934, 0.9918033)
+colors = PackedColorArray(0, 0, 0, 1, 0.83137256, 0.6666667, 0.4392157, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_1on8b"]
+gradient = SubResource("Gradient_eqddr")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_eqddr"]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(960, 540, 1)
+direction = Vector3(0.2, -1, 0)
+spread = 20.0
+initial_velocity_min = 8.0
+initial_velocity_max = 28.0
+gravity = Vector3(1.5, -5, 0)
+scale_min = 2.0
+scale_max = 3.0
+color = Color(0.83137256, 0.6666667, 0.4392157, 1)
+color_ramp = SubResource("GradientTexture1D_1on8b")
+turbulence_enabled = true
+turbulence_noise_strength = 8.0
+turbulence_noise_scale = 0.4
+turbulence_noise_speed = Vector3(0.08, 0, 0.04)
+
+[node name="PorteScene" type="Node2D" unique_id=398754945]
+script = ExtResource("1_oepkw")
+
+[node name="CL_Particules" type="CanvasLayer" parent="." unique_id=1831987061]
+layer = 2
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="CL_Particules" unique_id=712473826]
+position = Vector2(968, 564)
+amount = 80
+lifetime = 7.0
+randomness = 1.0
+process_material = SubResource("ParticleProcessMaterial_eqddr")
+
+[node name="CL_Image" type="CanvasLayer" parent="." unique_id=148298981]
+
+[node name="ColorRect" type="ColorRect" parent="CL_Image" unique_id=705664206]
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0, 0, 0, 1)
+
+[node name="PorteImage" type="TextureRect" parent="CL_Image" unique_id=338649291]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_eqddr")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="CL_Vignette" type="CanvasLayer" parent="." unique_id=1081591887]
+layer = 3
+
+[node name="Vignette" type="ColorRect" parent="CL_Vignette" unique_id=860571896]
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="CL_Noir" type="CanvasLayer" parent="." unique_id=893142548]
+layer = 4
+
+[node name="Noir" type="ColorRect" parent="CL_Noir" unique_id=1193429699]
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)

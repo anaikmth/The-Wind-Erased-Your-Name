@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://options_menu_scene"]
+
+[ext_resource type="Script" path="res://scripts/options_menu.gd" id="1_optscr"]
+[ext_resource type="Texture2D" uid="uid://bjsreaiusdxb8" path="res://assets (photos, musiques...)/2iz2txerde261.png" id="2_bqqt6"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_opts"]
+particle_flag_disable_z = true
+emission_shape_scale = Vector3(1920, 1080, 1)
+emission_shape = 3
+emission_box_extents = Vector3(960, 540, 1)
+initial_velocity_min = -60.0
+initial_velocity_max = -30.0
+gravity = Vector3(0, 98, 0)
+
+[node name="OptionsMenu" type="Node2D" unique_id=888800001]
+script = ExtResource("1_optscr")
+
+[node name="Background" type="TextureRect" parent="." unique_id=888800002]
+custom_minimum_size = Vector2(1920, 1080)
+offset_right = 1921.0
+offset_bottom = 1080.0
+texture = ExtResource("2_bqqt6")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="SandParticles" type="GPUParticles2D" parent="." unique_id=888800003]
+amount = 800
+process_material = SubResource("ParticleProcessMaterial_opts")
